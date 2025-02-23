@@ -42,8 +42,7 @@ Added Config Log Support
 
 Clone the repository:
 
-git clone https://github.com/LegendCoder505/RAGAR-Development-Language.git
-cd RAGAR-Development-Language
+git clone https://github.com/LegendCoder505/RAGAR-Development-Language.git cd RAGAR-Development-Language
 
 Run a RAGAR script:
 
@@ -51,13 +50,7 @@ python3 ragar.py script.rgr
 
 📌 Example Code
 
-var x = 10
-var y = 20
-if x < y {
-    put "X is smaller!"
-} else {
-    put "X is larger!"
-}
+var x = 10 var y = 20 if x < y { put "X is smaller!" } else { put "X is larger!" }
 
 🤝 Contributing
 
