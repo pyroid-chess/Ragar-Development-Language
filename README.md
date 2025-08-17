@@ -1,69 +1,67 @@
-RAGAR - The Development Language (v0.1.2)
+# RAGAR - The Development Language (v0.1.2)
 
-RAGAR is a lightweight, interpreted programming language designed for simplicity and flexibility. It introduces a custom syntax, built-in functions, and modular capabilities. Currently under active development! 🚀
+RAGAR is a lightweight, interpreted programming language designed for simplicity and flexibility. It features a custom syntax, built-in functions, and modular capabilities. The language is currently under active development.
 
-⚡ New Features in v0.1.2
+## New Features in v0.1.2
 
-Libraries Added:
+**Libraries Added:**
+- _built_in
+- _built_out
+- _std_in
+- _std_out
+- _object
 
-_built_in
+**New File Extension:**  
+`.rgr`
 
-_built_out
+**New Keywords:**
+- `include` ← / →: Specify a module to use in the next or previous class.
+- `included`: Refers to another module included by the `include` statement for use in the next class.
+- `define`: Define a module to be called.
+- `defied`: Define a module that is being used.
+- `class`, `func`: Main definitions for declaring classes and functions.
+- `var`, `put`, `ask`: Built-in functions for variable declaration, output, and input handling.
+- `if`, `else`, `elif`: Control flow statements.
 
-_std_in
+**Additional Enhancements:**
+- Introduced a versioning system.
+- Added configuration log support.
 
-_std_out
-
-_object
-
-New File Extension: .rgr
-
-New Keywords:
-
-include <- → Define which or what module to use at the next or previous class.
-
-included → Another module that is included by the include user to use in the next class.
-
-define → Define a module that is called.
-
-defied → Define a module that is using.
-
-class, func → Main definitions for declaring functions and classes.
-
-var, put, ask → Built-in functions for variable declaration, output, and input handling.
-
-if, else, elif → Control flow statements.
-
-Added Versioning System
-
-Added Config Log Support
-
-🚀 Installation
+## Installation
 
 Clone the repository:
-
-git clone https://github.com/LegendCoder505/RAGAR-Development-Language.git cd RAGAR-Development-Language
+```bash
+git clone https://github.com/LegendCoder505/RAGAR-Development-Language.git
+cd RAGAR-Development-Language
+```
 
 Run a RAGAR script:
-
+```bash
 python3 ragar.py script.rgr
+```
 
-📌 Example Code
+## Example Code
 
-var x = 10 var y = 20 if x < y { put "X is smaller!" } else { put "X is larger!" }
+```rgr
+var x = 10
+var y = 20
+if x < y {
+    put "X is smaller!"
+} else {
+    put "X is larger!"
+}
+```
 
-🤝 Contributing
+## Contributing
 
-RAGAR is open-source and under construction. Contributions are welcome!
+RAGAR is open-source and actively developed. Contributions are welcome.
 
-Report bugs via GitHub Issues.
+- Report bugs via GitHub Issues.
+- Submit pull requests for improvements.
+- Participate in discussions within the project community.
 
-Submit pull requests for improvements.
+## License
 
-Discuss ideas in the project community.
+RAGAR is licensed under the MIT License. You are free to use and modify the language.
 
-📜 License
-
-RAGAR is licensed under MIT License. Feel free to use and modify!
-
-⚡ Stay tuned for future updates! More features & optimizations coming soon. 🚀
+Stay tuned for future updates. More features and optimizations are planned.
